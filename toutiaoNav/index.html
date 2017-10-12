@@ -31,7 +31,7 @@
 	display:block;
 }
 #topNav .active span{
-	transform:scale(1.1);
+	/*transform:scale(1.1);*/
 	color:#FF2D2D;
 }
 img{
@@ -45,7 +45,7 @@ img{
 <div id="topNav" class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide active"><span>推荐</span></div>
-    <div class="swiper-slide"><span>热点</span></div>
+    <div class="swiper-slide"><span>热点热点</span></div>
     <div class="swiper-slide"><span>深圳</span></div>
     <div class="swiper-slide"><span>视频</span></div>
     <div class="swiper-slide"><span>社会</span></div>
@@ -69,8 +69,12 @@ img{
 <script type="text/javascript">
 var mySwiper = new Swiper('#topNav', {
 	freeMode: true,
-	freeModeMomentumRatio: 0.5,
+//	freeModeMomentumRatio: 0.5,
 	slidesPerView: 'auto',
+
+  slidesPerView: 5,
+//  paginationClickable: true,
+//  spaceBetween: 0,
 
 });
 
@@ -84,7 +88,7 @@ $(".swiper-container").on('touchstart', function(e) {
 
 mySwiper.on('tap', function(swiper, e) {
 
-	e.preventDefault()
+//	e.preventDefault()
 
 	slide = swiper.slides[swiper.clickedIndex]
 	slideLeft = slide.offsetLeft
