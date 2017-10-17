@@ -1,0 +1,35 @@
+body {
+  height: 4000px;
+}
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+.box01 {
+  width: 2.6666666666666665rem;
+  height: 2.6666666666666665rem;
+  background-color: #bfa;
+}
+.box01 .box02 {
+  width: 1.3333333333333333rem;
+  height: 1.3333333333333333rem;
+  background-color: red;
+}
+.wrapper .left {
+  width: 5rem;
+  height: 0.4rem;
+  float: left;
+  background-color: burlywood;
+}
+.wrapper .right {
+  width: 5rem;
+  height: 0.4rem;
+  float: right;
+  background-color: chartreuse;
+}

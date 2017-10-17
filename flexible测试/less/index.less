@@ -1,0 +1,39 @@
+@rem:75rem;
+body{
+  height: 4000px;
+  //background-color: red;
+}
+.clearfix:after,
+.clearfix:before{
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.clearfix{
+  zoom: 1;
+}
+.box01{
+  width: 200/@rem;
+  height: 200/@rem;
+  background-color: #bfa;
+  .box02{
+    width: 100/@rem;
+    height: 100/@rem;
+    background-color: red;
+  }
+}
+.wrapper{
+  .left{
+    width: 375/@rem;
+    height: 30/@rem;
+    float: left;
+    background-color: burlywood;
+  }
+  .right{
+    width: 375/@rem;
+    height: 30/@rem;
+    float: right;
+    background-color: chartreuse;
+  }
+}

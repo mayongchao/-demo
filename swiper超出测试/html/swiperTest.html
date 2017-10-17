@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>swiperTest</title>
+    <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
+    <style type="text/css">
+        body, html {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            height: 100%;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            background: #f1f1f1;
+            color:#000;
+            text-align: center;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .swiper-slide img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide"><img src="../image/articlePhoto01.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../image/articlePhoto02.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../image/articlePhoto03.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="../image/test.jpg" alt=""></div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">Slide 10</div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/swiper-3.4.2.jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+        });
+        var startScroll, touchStart, touchCurrent;
+        swiper.slides.on('touchstart', function (e) {
+            startScroll = this.scrollTop;
+            touchStart = e.targetTouches[0].pageY;
+        }, true);
+        swiper.slides.on('touchmove', function (e) {
+            touchCurrent = e.targetTouches[0].pageY;
+            var touchesDiff = touchCurrent - touchStart;
+            var slide = this;
+            var onlyScrolling =
+                    ( slide.scrollHeight > slide.offsetHeight ) &&
+                    (
+                            ( touchesDiff < 0 && startScroll === 0 ) ||
+                            ( touchesDiff > 0 && startScroll === ( slide.scrollHeight - slide.offsetHeight ) ) ||
+                            ( startScroll > 0 && startScroll < ( slide.scrollHeight - slide.offsetHeight ) )
+                    );
+            if (onlyScrolling) {
+                e.stopPropagation();
+            }
+        }, true);
+    })
+</script>
+</body>
+</html>

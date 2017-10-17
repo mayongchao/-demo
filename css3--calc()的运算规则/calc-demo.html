@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calc-demo</title>
+    <style type="text/css">
+        .demo{
+            width: 300px;
+            background-color: red;
+            padding: 3px 0;
+        }
+       /* .box{
+            width: 100%;
+            background-color: green;
+            height: 50px;
+            padding: 10px;
+            border: 5px solid blueviolet;
+        }*/
+        .box{
+            width: calc(100% - (10 + 5)*2);
+            background-color: green;
+            height: 50px;
+            padding: 10px;
+            border: 5px solid blueviolet;
+        }
+    </style>
+</head>
+<body>
+<!--
+为了解决撑破容器的问题，以前我们只能去计算div.box的宽度，用容器宽度减去padding和border的值，
+但有时候，我们苦于不知道元素的总宽度，比如说是自适应的布局，只知道一个*百分值*，但其他的值又
+是px之类的值，这就是难点，死卡住了。随着CSS3的出现，其中利用box-sizing来改变元素的盒模型类
+型实使实现效果，但今天我们学习的calc()方法更是方便。
+
+知道总宽度是100%，在这个基础上减去boder的宽度（5px * 2 = 10px）,在减去padding的宽度（10px * 2 = 20px），
+即"100% - (10px + 5px) * 2 = 30px" ，最终得到的值就是div.box的width值：
+
+原文: http://www.w3cplus.com/css3/how-to-use-css3-calc-function.html © w3cplus.com
+-->
+    <div class="demo">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
