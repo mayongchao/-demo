@@ -1,0 +1,88 @@
+rgba（0,0,0,0.5） 与opacity的区别
+  overflow: hidden; 可以解决外边距重叠问题 需要给其父元素添加
+
+
+解决高度塌陷与外边距重叠的问题的clearfix
+	.clearfix:after,
+        .clearfix:before{
+            content: "";
+            display: block;
+            clear: both;
+            overflow: hidden;
+        }
+        .clearfix{
+            zoom: 1;
+        }
+
+使用backgound-size:cover;方法 可以是背景图片铺满 重要
+
+
+处理图片背景模糊的效果
+.fuzzy {  
+    filter: url(blur.svg#blur);  
+ /* FireFox, Chrome, Opera */  
+    -webkit-filter: blur(3px);  
+ /* Chrome, Opera */  
+    -moz-filter: blur(3px);  
+    -ms-filter: blur(3px);  
+    filter: blur(3px);  
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);  
+ /* IE6~IE9 */  
+}  
+其中blur(5px)里面的5px数值可以修改，数值越大越模糊，反之越清晰。
+
+
+
+分享个方法 scrollIntoView()
+使用这个方法可以使当前元素的滚动到视口的可见位置 （实验一下）
+
+解决移动端阻止默认行为 与 取消默认行为
+
+        function handler() {
+            event.preventDefault();
+        }
+        // 绑定事件
+//        document.addEventListener('touchmove', handler, false);
+
+// 解绑事件
+//        document.removeEventListener('touchmove', handler, false);
+
+
+
+如何设置input表框的placeholder属性的字体大小颜色 等
+　input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+　　color: #666;
+　　}
+　　input:-moz-placeholder, textarea:-moz-placeholder {
+　　color:#666;
+　　}
+　　input::-moz-placeholder, textarea::-moz-placeholder {
+　　color:#666;
+　　}
+　　input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+　　color:#666;
+　　}
+去除input的表框的默认边框 以及高亮效果
+input{
+outline:none
+}
+
+
+使用swiper的时候如果轮播图片只有一张不可以轮播 需要使用swiper的命令
+
+
+var Swiper03 = new Swiper('.swiper03', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay: 3000,
+            autoplayDisableOnInteraction: false,
+        })
+        /*如果只有一个slide就锁住swiper
+         if(mySwiper.slides.length<=3){
+         mySwiper.lockSwipes();
+         }*/
+        console.log($('.swiper03').find('li').length)
+        if($('.swiper03').find('li').length <= 3){
+            Swiper03.lockSwipes()
+        }
+此时要注意：ul下面的li的数量不是1，最小值是3，（擦，搞死我了！）因为swiper底层做了封装处理！！！！！！

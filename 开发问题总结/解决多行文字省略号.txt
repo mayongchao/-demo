@@ -1,0 +1,10 @@
+   解决多行文字出现省略号
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+解决单行文本出现省略号
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
