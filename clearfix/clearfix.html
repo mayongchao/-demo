@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clearfix</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .clearfix:before,
+        .clearfix:after{
+            content: '';
+            display: block;
+            clear: both;
+            overflow: hidden;
+        }
+        .clearfix{
+            zoom: 1;
+        }
+        .wrapper{
+            margin: 0 auto;
+            width: 500px;
+            background-color: #bfa;
+        }
+        .con{
+            width: 250px;
+            height: 200px;
+            background-color: red;
+            float: left;
+            margin-top: 50px;
+        }
+        .list{
+            width: 500px;
+            height: 500px;
+            background-color: green;
+        }
+        .item{
+            width: 250px;
+            height: 250px;
+            background-color: yellow;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+<!--
+    clearfix 需要添加到父级元素身上，可以解决两个问题：
+    1.解决高度塌陷；
+    2.解决上外边距重叠的问题；
+-->
+    <div class="wrapper clearfix">
+        <div class="con"></div>
+    </div>
+    <div class="list clearfix">
+        <div class="item"></div>
+    </div>
+</body>
+</html>
