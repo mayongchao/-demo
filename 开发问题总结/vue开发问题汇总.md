@@ -21,6 +21,28 @@
 ![](https://i.imgur.com/3mA9vBg.png)
 ###npm install stylus-loader
 ![](https://i.imgur.com/gFaK6o4.png)
+##组件遇到的问题
+###1.引入的组件的时候需要在components：【】 中声明组件
+![](https://i.imgur.com/laGTKye.png)
+###2.在标签命名中不要使用大写，标签名必须用短横线隔开
+![](https://i.imgur.com/IsuroeJ.png)
+###3组件模板中只可以使用一个根元素，不能使用并列标签，并且不可以在根元素中使用模板语法
+![](https://i.imgur.com/iru7v1q.png)
+###否则会报如下错误：译文：不能在有状态组件根元素上使用v字，因为它会呈现多个元素
+![](https://i.imgur.com/h5eqnIW.png)
 ##传递数据的两种方式
 ##1.父组件向子组件传递使用props
+###注意：是父组件向子组件传递，父组件使用标签属性的方式向子组件传递数据（类型可以是String、Number、Function、Array、Object、Boolean）
+![](https://i.imgur.com/FfBGrJP.png)
+###组件通过props的方式接受数据，需要注意的是需要声明接收数据的类型
+![](https://i.imgur.com/970PKmf.png)
 ##2.子组件向父组件传递使用“自定义事件”
+##首先在父组件中定义方法，通过标签属性的方式传递给子组件
+![](https://i.imgur.com/Bx2Xry3.png)
+![](https://i.imgur.com/eKrdDIL.png)
+##然后在子组件中调用父组件定义的方法，并且传递参数（其实传递的参数就是子组件在向父组件传递数据）
+![](https://i.imgur.com/1mRP5XP.png)
+![](https://i.imgur.com/2oWutJT.png)
+
+
+

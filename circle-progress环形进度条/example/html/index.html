@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>example</title>
+    <style type="text/css">
+        #circle{
+            display: inline-block;
+            margin: 300px 500px;
+            position: relative;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -100;
+        }
+    </style>
+</head>
+<body>
+    <div id="circle">
+        <div class="box"></div>
+    </div>
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/circle-progress.js"></script>
+<script type="text/javascript">
+    $('#circle').circleProgress({
+        /*这是唯一一个必填参数。值从0.0到1.0，默认值为0*/
+        value: 0.75,
+        /*初始角度，默认值为-Math.PI*/
+        startAngle: -Math.PI / 6*3,
+        /*canvas的大小，单位像素，默认值100*/
+        size: 200,
+        /*是否反向绘制圆弧和动画，默认值为false*/
+        reverse:false,
+        /*进度条圆弧的宽度。默认它自动为size的1/14大小，你可以设置你需要的值。默认值为auto*/
+        thickness:10,
+        /*圆弧的线头样式："butt"、"round"和"square"。详细信息看这里。默认值为"butt"*/
+        lineCap:'round',
+        /*空圆弧的颜色。默认值为"rgba(0, 0, 0, .1)"*/
+        emptyFill:'transparent',
+        /*默认进度条动画会在0.0开始，结束与value处。调用该参数可以直接动画。如果需要制作反向动画就将animationStartValue的值设置为1.0。你可以指定0.0到1.0之间的任何数值。默认值为0.0*/
+        animationStartValue: 0.0,
+        /*动画配置。可以参考jQuery animations。你可以设置为false来禁止动画。默认值：{ duration: 1200, easing: "circleProgressEase" }。"circleProgressEase"是一个ease-in-out-cubic easing动画效果*/
+//        animation:'{ duration: 1200, easing: "circleProgressEase" }',
+        /*圆弧填充的配置。*/
+        fill: { image: "../images/bg_Progress_bar@2x.png" }
+    });
+</script>
+</body>
+</html>

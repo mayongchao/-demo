@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义雷达图</title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+<div id="main" style="width: 700px;height:700px;"></div>
+<script type="text/javascript" src="./js/echarts.js"></script>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('main'));
+    option = {
+        title: {
+            text: '自定义雷达图'
+        },
+        legend: {
+            data: ['图一', '图二', '张三', '李四']
+        },
+        radar: [
+            {
+                indicator: [{
+                    text: '指标一'
+                }, {
+                    text: '指标二'
+                }, {
+                    text: '指标三'
+                }, {
+                    text: '指标四'
+                }, {
+                    text: '指标五'
+                }],
+                center: ['25%', '50%'],
+                radius: 120,
+                startAngle: 90,
+                /*控制雷达图的向外扩展的条数*/
+
+                shape: 'circle',
+                name: {
+                    formatter: '【{value}】',
+                    /*控制文字的颜色*/
+                    textStyle: {
+                        color: '#72ACD1'
+                    }
+                },splitNumber: 1,
+                splitArea: {
+                    areaStyle: {
+                        /*设置圆心向外扩展圆弧的颜色*/
+                        color: ['rgba(114, 172, 209, 0.2)',
+                            'rgba(114, 172, 209, 0.4)', 'rgba(114, 172, 209, 0.6)',
+                            'rgba(114, 172, 209, 0.8)', 'rgba(114, 172, 209, 1)'
+                        ],
+                        /*设置圆心向外扩展的阴影以及距离*/
+                        shadowColor: 'rgba(0, 0, 0, 0.3)',
+                        shadowBlur: 10
+                    }
+                },
+                axisLine: {
+                    lineStyle: {
+                        /*设置从中心点向外的直线的颜色*/
+                        color: 'red'
+                    }
+                },
+                splitLine: {
+                    lineStyle: {
+                        /*设置外围圆圈的颜色*/
+                        color: 'red'
+                    }
+                }
+            },
+//                项目的名字与最大值
+            {
+                indicator: [{
+                    text: '语文',
+                    max: 150
+                }, {
+                    text: '数学',
+                    max: 150
+                }, {
+                    text: '英语',
+                    max: 150
+                }, {
+                    text: '物理',
+                    max: 120
+                }, {
+                    text: '化学',
+                    max: 108
+                }, {
+                    text: '生物',
+                    max: 72
+                }],
+                center: ['75%', '50%'], //控制坐标点
+                /*控制图形的半径大小*/
+                radius: 100
+            }],
+        series: [{
+            name: '雷达图',
+            type: 'radar',
+            itemStyle: {
+                emphasis: {
+                    // color: 各异,
+                    lineStyle: {
+                        width: 8
+                    }
+                }
+            },
+            data: [{
+                value: [100, 8, 0.40, -80, 2000],
+                name: '图一',
+                symbol: 'rect',
+                symbolSize: 5,
+                lineStyle: {
+                    normal: {
+                        /*控制线的类型，是实现还是虚线*/
+                        type: 'solid',
+                        color:'#fff'
+                    }
+                }
+            }, {
+                value: [60, 5, 0.30, -100, 1500],
+                name: '图二',
+                areaStyle: {
+                    normal: {
+                        color: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }]
+        }, {
+            name: '成绩单',
+            type: 'radar',
+            radarIndex: 1,
+            data: [{
+                value: [120, 118, 130, 100, 99, 70],
+                name: '张三',
+                label: {
+                    normal: {
+                        show: true,
+                        formatter: function (params) {
+                            return params.value;
+                        }
+                    }
+                }
+            }, {
+                value: [90, 113, 140, 30, 70, 60],
+                name: '李四',
+                areaStyle: {
+                    normal: {
+                        /*调节块状颜色的透明度*/
+                        opacity: 0.5,
+                        /*调节渐变颜色*/
+                        color: new echarts.graphic.RadialGradient(0.5, 0.5, 1, [{
+                            color: '#bfa',
+                            offset: 0
+                        }, {
+                            color: 'red',
+                            offset: 1
+                        }])
+                    }
+                }
+            }]
+        }]
+    }
+    myChart.setOption(option);
+</script>
+</body>
+</html>
