@@ -23,17 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="list-mescroll-body.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list-mescroll-body.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-body.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4686">
-              <caret line="178" column="14" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
+            <state relative-caret-position="298">
+              <caret line="210" column="45" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
               <folding>
                 <element signature="e#3220#3404#0" expanded="false" />
                 <element signature="e#3429#4063#0" expanded="false" />
                 <element signature="e#3644#3855#0" expanded="false" />
-                <element signature="e#4159#4373#0" expanded="false" />
-                <element signature="e#5593#6282#0" expanded="false" />
                 <element signature="e#6446#8165#0" expanded="false" />
               </folding>
             </state>
@@ -88,38 +86,32 @@
       <file leaf-file-name="list-full-lock.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+            <state relative-caret-position="3498">
+              <caret line="106" column="66" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list-products.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-products.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3696">
-              <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
-              <folding />
-            </state>
+      <file leaf-file-name="list-mescroll-body.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-body.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list-products-vue.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-products-vue.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2871">
-              <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-              <folding />
-            </state>
+      <file leaf-file-name="list-news.gif" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-news.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mescroll-options.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mescroll-options.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/mescroll-options.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="205" column="41" selection-start-line="205" selection-start-column="41" selection-end-line="205" selection-end-column="41" />
+            <state relative-caret-position="858">
+              <caret line="112" column="48" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#2981#2988#0" expanded="false" />
@@ -128,12 +120,11 @@
                 <element signature="e#7479#7803#0" expanded="false" />
                 <element signature="e#9292#9506#0" expanded="false" />
                 <element signature="e#9610#10653#0" expanded="false" />
-                <element signature="e#10708#11182#0" expanded="false" />
-                <marker date="1510136112011" expanded="false" signature="4465:4705" ph="{...}" />
-                <marker date="1510136112011" expanded="false" signature="4741:4986" ph="{...}" />
-                <marker date="1510136112011" expanded="false" signature="5023:5171" ph="{...}" />
-                <marker date="1510136112011" expanded="false" signature="5224:5725" ph="{...}" />
-                <marker date="1510136112011" expanded="false" signature="5507:5718" ph="{...}" />
+                <marker date="1510283791747" expanded="false" signature="4465:4705" ph="{...}" />
+                <marker date="1510283791747" expanded="false" signature="4741:4986" ph="{...}" />
+                <marker date="1510283791747" expanded="false" signature="5023:5171" ph="{...}" />
+                <marker date="1510283791747" expanded="false" signature="5224:5725" ph="{...}" />
+                <marker date="1510283791747" expanded="false" signature="5507:5718" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -168,7 +159,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
+    <option name="width" value="1924" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -196,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -301,7 +293,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,32 +374,34 @@
       <workItem from="1508894929194" duration="28041000" />
       <workItem from="1509428495961" duration="11090000" />
       <workItem from="1510135348900" duration="1382000" />
+      <workItem from="1510283681637" duration="1453000" />
+      <workItem from="1510645901725" duration="2078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40513000" />
+    <option name="totallyTimeSpent" value="44044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1924" height="1048" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24788584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24760383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -427,6 +420,91 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-more.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5247">
+          <caret line="159" column="66" selection-start-line="159" selection-start-column="66" selection-end-line="159" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3531">
+          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#4019#4233#0" expanded="false" />
+            <element signature="e#4337#5350#0" expanded="false" />
+            <element signature="e#4425#5257#0" expanded="false" />
+            <element signature="e#5405#5879#0" expanded="false" />
+            <element signature="e#5986#7776#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/res/img/mescroll-empty.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/dist/mescroll.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="190" column="33" selection-start-line="190" selection-start-column="33" selection-end-line="190" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3663">
+          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-products-vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2871">
+          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/mescroll-options.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2981#2988#0" expanded="false" />
+            <element signature="e#3210#6218#0" expanded="false" />
+            <element signature="e#5940#6212#0" expanded="false" />
+            <element signature="e#7479#7803#0" expanded="false" />
+            <element signature="e#9292#9506#0" expanded="false" />
+            <element signature="e#9610#10653#0" expanded="false" />
+            <marker date="1510283791747" expanded="false" signature="4465:4705" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="4741:4986" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5023:5171" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5224:5725" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5507:5718" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-body.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4686">
@@ -435,8 +513,6 @@
             <element signature="e#3220#3404#0" expanded="false" />
             <element signature="e#3429#4063#0" expanded="false" />
             <element signature="e#3644#3855#0" expanded="false" />
-            <element signature="e#4159#4373#0" expanded="false" />
-            <element signature="e#5593#6282#0" expanded="false" />
             <element signature="e#6446#8165#0" expanded="false" />
           </folding>
         </state>
@@ -475,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3696">
           <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,7 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2871">
           <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,12 +596,11 @@
             <element signature="e#7479#7803#0" expanded="false" />
             <element signature="e#9292#9506#0" expanded="false" />
             <element signature="e#9610#10653#0" expanded="false" />
-            <element signature="e#10708#11182#0" expanded="false" />
-            <marker date="1510136112011" expanded="false" signature="4465:4705" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="4741:4986" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5023:5171" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5224:5725" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5507:5718" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="4465:4705" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="4741:4986" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5023:5171" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5224:5725" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5507:5718" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -541,8 +613,6 @@
             <element signature="e#3220#3404#0" expanded="false" />
             <element signature="e#3429#4063#0" expanded="false" />
             <element signature="e#3644#3855#0" expanded="false" />
-            <element signature="e#4159#4373#0" expanded="false" />
-            <element signature="e#5593#6282#0" expanded="false" />
             <element signature="e#6446#8165#0" expanded="false" />
           </folding>
         </state>
@@ -589,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6237">
           <caret line="189" column="12" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,12 +679,11 @@
             <element signature="e#7479#7803#0" expanded="false" />
             <element signature="e#9292#9506#0" expanded="false" />
             <element signature="e#9610#10653#0" expanded="false" />
-            <element signature="e#10708#11182#0" expanded="false" />
-            <marker date="1510136112011" expanded="false" signature="4465:4705" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="4741:4986" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5023:5171" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5224:5725" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5507:5718" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="4465:4705" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="4741:4986" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5023:5171" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5224:5725" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5507:5718" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -688,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2706">
           <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3696">
           <caret line="112" column="14" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,22 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2871">
           <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-body.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4686">
-          <caret line="178" column="14" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
-          <folding>
-            <element signature="e#3220#3404#0" expanded="false" />
-            <element signature="e#3429#4063#0" expanded="false" />
-            <element signature="e#3644#3855#0" expanded="false" />
-            <element signature="e#4159#4373#0" expanded="false" />
-            <element signature="e#5593#6282#0" expanded="false" />
-            <element signature="e#6446#8165#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,23 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/mescroll-options.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="205" column="41" selection-start-line="205" selection-start-column="41" selection-end-line="205" selection-end-column="41" />
+        <state relative-caret-position="858">
+          <caret line="112" column="48" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#2981#2988#0" expanded="false" />
@@ -785,12 +822,47 @@
             <element signature="e#7479#7803#0" expanded="false" />
             <element signature="e#9292#9506#0" expanded="false" />
             <element signature="e#9610#10653#0" expanded="false" />
-            <element signature="e#10708#11182#0" expanded="false" />
-            <marker date="1510136112011" expanded="false" signature="4465:4705" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="4741:4986" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5023:5171" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5224:5725" ph="{...}" />
-            <marker date="1510136112011" expanded="false" signature="5507:5718" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="4465:4705" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="4741:4986" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5023:5171" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5224:5725" ph="{...}" />
+            <marker date="1510283791747" expanded="false" signature="5507:5718" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-body.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-news.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3498">
+          <caret line="106" column="66" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="210" column="45" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
+          <folding>
+            <element signature="e#3220#3404#0" expanded="false" />
+            <element signature="e#3429#4063#0" expanded="false" />
+            <element signature="e#3644#3855#0" expanded="false" />
+            <element signature="e#6446#8165#0" expanded="false" />
           </folding>
         </state>
       </provider>
