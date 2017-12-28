@@ -1,0 +1,122 @@
+解决1px边框问题；设计图上常常出现1px边框的设计，但是移动端因为dpr的问题设置1px的时候往往是实际像素的2倍到3倍；也就是2px或者3px；
+解决问题的代码如下：
+使用less的代码：
+
+/*使用媒体查询分别解决设备dpr为2为3的情况*/
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2){
+  .border-1px{
+    &::after{
+      -webkit-transform :scaleY(.5);
+      transform :scaleY(.5);
+    }
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3){
+  .border-1px{
+    &::after{
+      -webkit-transform: scaleY(.33333);
+      transform: scaleY(.333333);
+    }
+  }
+}
+/*设置下边框线为1px，此处使用的是less的混合模式，需要注意的是此处的border-1px与上面的媒体查询的border-1px不一样，此处只是样式！*/
+.border-1px(@color){
+  position: relative;
+  &:after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: @color;
+  }
+}
+/*设置box的1px下边框，引用less的混合*/
+.box{
+  width: 100%;
+  height: 100/@rem;
+  background-color: #f3f3f3;
+  .border-1px(red)
+}
+
+
+使用stylus的代码（因为stylus编译器是基于node.js所以一般用stylus主要是在前后端分离的项目比如使用vue开发）：
+代码的原理同上是一样的
+文件：base.styl
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+  .border-1px
+    &::after
+      -webkit-transform scaleY(.5)
+      transform scaleY(.5)
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+  .border-1px
+    &::after
+      -webkit-transform scaleY(.33333)
+      transform scaleY(.333333)
+
+文件：mixin.styl
+border-1px($color)
+  position relative
+  &:after
+    content ""
+    display block
+    position absolute
+    bottom 0
+    width 100%
+    height 1px
+    background $color
+引入到项目中即可
+
+/*对于dpr为2的设备使用此方法，此方法没有做判断，但是代码量少*/（不建议使用）
+.reply::after{
+  content:" ";
+  position:absolute;
+  width:100%;
+  height:1px;
+  left:0;
+  bottom:-1px;
+  border-bottom:1px solid red;
+  transform:scaleY(0.5);
+  -webkit-transform:scaleY(0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="list-mescroll-body.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list-mescroll-body.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-body.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="210" column="45" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
+            <state relative-caret-position="232">
+              <caret line="208" column="12" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="12" />
               <folding>
                 <element signature="e#3220#3404#0" expanded="false" />
                 <element signature="e#3429#4063#0" expanded="false" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="list-mescroll-more.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-more.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5247">
-              <caret line="159" column="66" selection-start-line="159" selection-start-column="66" selection-end-line="159" selection-end-column="66" />
+            <state relative-caret-position="188">
+              <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="list-mescroll-one.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-one.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3531">
-              <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+            <state relative-caret-position="89">
+              <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -66,10 +66,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mescroll-empty.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mescroll-master/demo/res/img/mescroll-empty.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="list-news.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="190" column="52" selection-start-line="190" selection-start-column="52" selection-end-line="190" selection-end-column="52" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -86,8 +89,8 @@
       <file leaf-file-name="list-full-lock.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3498">
-              <caret line="106" column="66" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
+            <state relative-caret-position="287">
+              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -187,8 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -376,11 +379,12 @@
       <workItem from="1510135348900" duration="1382000" />
       <workItem from="1510283681637" duration="1453000" />
       <workItem from="1510645901725" duration="2078000" />
+      <workItem from="1511402203143" duration="2082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44044000" />
+    <option name="totallyTimeSpent" value="46126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1048" extended-state="1" />
@@ -390,18 +394,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -752,13 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2706">
-          <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-products.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3696">
@@ -773,33 +770,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-more.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5247">
-          <caret line="159" column="66" selection-start-line="159" selection-start-column="66" selection-end-line="159" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mescroll-master/demo/res/img/mescroll-empty.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3531">
-          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#4019#4233#0" expanded="false" />
-            <element signature="e#4337#5350#0" expanded="false" />
-            <element signature="e#4425#5257#0" expanded="false" />
-            <element signature="e#5405#5879#0" expanded="false" />
-            <element signature="e#5986#7776#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mescroll-master/dist/mescroll.min.css">
@@ -848,22 +821,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-full-lock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3498">
-          <caret line="106" column="66" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
+        <state relative-caret-position="287">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-body.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="210" column="45" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
+        <state relative-caret-position="232">
+          <caret line="208" column="12" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="12" />
           <folding>
             <element signature="e#3220#3404#0" expanded="false" />
             <element signature="e#3429#4063#0" expanded="false" />
             <element signature="e#3644#3855#0" expanded="false" />
             <element signature="e#6446#8165#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-more.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-mescroll-one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#4019#4233#0" expanded="false" />
+            <element signature="e#4337#5350#0" expanded="false" />
+            <element signature="e#4425#5257#0" expanded="false" />
+            <element signature="e#5405#5879#0" expanded="false" />
+            <element signature="e#5986#7776#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mescroll-master/demo/base/list-news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="190" column="52" selection-start-line="190" selection-start-column="52" selection-end-line="190" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>

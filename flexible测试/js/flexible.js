@@ -30,7 +30,6 @@
             }
         }
     }
-
     if (!dpr && !scale) {
         var isAndroid = win.navigator.appVersion.match(/android/gi);
         var isIPhone = win.navigator.appVersion.match(/iphone/gi);
@@ -93,8 +92,6 @@
             doc.body.style.fontSize = 12 * dpr + 'px';
         }, false);
     }
-
-
     refreshRem();
 
     flexible.dpr = win.dpr = dpr;
