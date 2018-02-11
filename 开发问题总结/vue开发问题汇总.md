@@ -44,5 +44,11 @@
 ![](https://i.imgur.com/1mRP5XP.png)
 ![](https://i.imgur.com/2oWutJT.png)
 
+#vue-router
+##关于vue-router需要注意的地方（配置的文件是router文件夹下的router.js)
+![](https://i.imgur.com/rA0pF9y.png)
+
+
+
 
 
