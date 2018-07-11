@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>imageList</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <!--需要修改引入对应的css-->
+    <link rel="stylesheet" href="../css/imageList.css">
+    <!--需要修改引入对应的css-->
+</head>
+<body>
+    <ul class="imageShow clearfix">
+        <li class="imageItem">
+            <img src="../images/article02.png" alt="">
+        </li>
+        <li class="imageItem">
+            <img src="../images/article02.png" alt="">
+        </li>
+        <li class="imageItem">
+            <img src="../images/article02.png" alt="">
+        </li>
+        <li class="imageItem">
+            <img src="../images/article02.png" alt="">
+        </li>
+        <li class="imageItem">
+            <img src="../images/article02.png" alt="">
+        </li>
+        <li class="imageItem">
+            <img src="../images/article02.png" alt="">
+        </li>
+        <li class="imageItem">
+            <img src="../images/article02.png" alt="">
+        </li>
+
+    </ul>
+<script type="text/javascript" src="../js/rem.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.photoswipe-global.js"></script>
+<script type="text/javascript">
+    $(function () {
+        // 查看图片
+        gallery()
+        function gallery(){
+            $('.imageShow').photoSwipe('.imageItem', {bgOpacity: 1, shareEl: false,loop:false}, {
+                close: function () {
+                    setTimeout(function(){
+                        $('.pswp').attr("class","pswp ");
+                    },500);
+
+                }
+            });
+        }
+//        native.viewDetailCanclePull();
+    })
+</script>
+</body>
+</html>

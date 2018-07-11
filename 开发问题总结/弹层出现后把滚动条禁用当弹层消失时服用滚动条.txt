@@ -1,0 +1,26 @@
+
+
+
+
+//        	  阻止移动端默认行为
+        	function handler() {
+           	 event.preventDefault();
+       		}
+禁用：
+
+//                弹层展示的时候禁用滚动条
+                $('body','html').css({'height':'100%','overflow':'hidden'})
+//		  如果不阻止默认行为 浏览器测试的时候没问题 手机端测试的时候滚动条无法禁用 所以一定要加上；
+//                阻止移动端默认行为 
+                document.addEventListener('touchmove', handler, false);
+解绑复用：
+
+//		  解绑默认行为
+                document.removeEventListener('touchmove', handler, false);
+//                大图消失使用滚动条
+                $('body','html').css({'height':'100%','overflow':'visible'})
+
+
+
+
+

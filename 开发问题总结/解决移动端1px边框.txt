@@ -1,8 +1,8 @@
-½â¾ö1px±ß¿òÎÊÌâ£»Éè¼ÆÍ¼ÉÏ³£³£³öÏÖ1px±ß¿òµÄÉè¼Æ£¬µ«ÊÇÒÆ¶¯¶ËÒòÎªdprµÄÎÊÌâÉèÖÃ1pxµÄÊ±ºòÍùÍùÊÇÊµ¼ÊÏñËØµÄ2±¶µ½3±¶£»Ò²¾ÍÊÇ2px»òÕß3px£»
-½â¾öÎÊÌâµÄ´úÂëÈçÏÂ£º
-Ê¹ÓÃlessµÄ´úÂë£º
+ï¿½ï¿½ï¿½1pxï¿½ß¿ï¿½ï¿½ï¿½ï¿½â£»ï¿½ï¿½ï¿½Í¼ï¿½Ï³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1pxï¿½ß¿ï¿½ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½Îªdprï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1pxï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½2ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½2pxï¿½ï¿½ï¿½ï¿½3pxï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½
+Ê¹ï¿½ï¿½lessï¿½Ä´ï¿½ï¿½ë£º
 
-/*Ê¹ÓÃÃ½Ìå²éÑ¯·Ö±ð½â¾öÉè±¸dprÎª2Îª3µÄÇé¿ö*/
+/*Ê¹ï¿½ï¿½Ã½ï¿½ï¿½ï¿½Ñ¯ï¿½Ö±ï¿½ï¿½ï¿½ï¿½è±¸dprÎª2Îª3ï¿½ï¿½ï¿½ï¿½ï¿½*/
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2){
   .border-1px{
     &::after{
@@ -19,7 +19,7 @@
     }
   }
 }
-/*ÉèÖÃÏÂ±ß¿òÏßÎª1px£¬´Ë´¦Ê¹ÓÃµÄÊÇlessµÄ»ìºÏÄ£Ê½£¬ÐèÒª×¢ÒâµÄÊÇ´Ë´¦µÄborder-1pxÓëÉÏÃæµÄÃ½Ìå²éÑ¯µÄborder-1px²»Ò»Ñù£¬´Ë´¦Ö»ÊÇÑùÊ½£¡*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½Â±ß¿ï¿½ï¿½ï¿½Îª1pxï¿½ï¿½ï¿½Ë´ï¿½Ê¹ï¿½Ãµï¿½ï¿½ï¿½lessï¿½Ä»ï¿½ï¿½Ä£Ê½ï¿½ï¿½ï¿½ï¿½Òª×¢ï¿½ï¿½ï¿½ï¿½Ç´Ë´ï¿½ï¿½ï¿½border-1pxï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½border-1pxï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ë´ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½*/
 .border-1px(@color){
   position: relative;
   &:after{
@@ -32,7 +32,7 @@
     background: @color;
   }
 }
-/*ÉèÖÃboxµÄ1pxÏÂ±ß¿ò£¬ÒýÓÃlessµÄ»ìºÏ*/
+/*ï¿½ï¿½ï¿½ï¿½boxï¿½ï¿½1pxï¿½Â±ß¿ï¿½ï¿½ï¿½ï¿½ï¿½lessï¿½Ä»ï¿½ï¿½*/
 .box{
   width: 100%;
   height: 100/@rem;
@@ -41,9 +41,9 @@
 }
 
 
-Ê¹ÓÃstylusµÄ´úÂë£¨ÒòÎªstylus±àÒëÆ÷ÊÇ»ùÓÚnode.jsËùÒÔÒ»°ãÓÃstylusÖ÷ÒªÊÇÔÚÇ°ºó¶Ë·ÖÀëµÄÏîÄ¿±ÈÈçÊ¹ÓÃvue¿ª·¢£©£º
-´úÂëµÄÔ­ÀíÍ¬ÉÏÊÇÒ»ÑùµÄ
-ÎÄ¼þ£ºbase.styl
+Ê¹ï¿½ï¿½stylusï¿½Ä´ï¿½ï¿½ë£¨ï¿½ï¿½Îªstylusï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç»ï¿½ï¿½ï¿½node.jsï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½stylusï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½vueï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½
+ï¿½Ä¼ï¿½ï¿½ï¿½base.styl
 @media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
   .border-1px
     &::after
@@ -56,7 +56,7 @@
       -webkit-transform scaleY(.33333)
       transform scaleY(.333333)
 
-ÎÄ¼þ£ºmixin.styl
+ï¿½Ä¼ï¿½ï¿½ï¿½mixin.styl
 border-1px($color)
   position relative
   &:after
@@ -67,9 +67,9 @@ border-1px($color)
     width 100%
     height 1px
     background $color
-ÒýÈëµ½ÏîÄ¿ÖÐ¼´¿É
+ï¿½ï¿½ï¿½ëµ½ï¿½ï¿½Ä¿ï¿½Ð¼ï¿½ï¿½ï¿½
 
-/*¶ÔÓÚdprÎª2µÄÉè±¸Ê¹ÓÃ´Ë·½·¨£¬´Ë·½·¨Ã»ÓÐ×öÅÐ¶Ï£¬µ«ÊÇ´úÂëÁ¿ÉÙ*/£¨²»½¨ÒéÊ¹ÓÃ£©
+/*ï¿½ï¿½ï¿½ï¿½dprÎª2ï¿½ï¿½ï¿½è±¸Ê¹ï¿½Ã´Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë·ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ï£ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã£ï¿½
 .reply::after{
   content:" ";
   position:absolute;

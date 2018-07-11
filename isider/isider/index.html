@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iSlider</title>
+    <link rel="stylesheet" href="./css/iSlider.css">
+    <style>
+        #iSlider-wrapper{
+            height: 200px;
+        }
+        .islider-dot.active{
+            background-color: red;
+        }
+        .islider-dot{
+            background-color: #F3F3F3;
+        }
+        .islider-dot-wrap{
+            top: 190px;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="iSlider-wrapper">
+
+</div>
+<script src="./js/iSlider.js"></script>
+<script src="./js/animate.js"></script>
+<script type="text/javascript" src="./js/plugins/dot.js"></script>
+<script type="text/javascript" src="./js/plugins/button.js"></script>
+<script type="text/javascript" src="./js/plugins/BIZone.js"></script>
+<script type="text/javascript" src="./js/plugins/zoompic.js"></script>
+<script>
+    var list = [
+        {content: "./img/1.jpg"},
+        {content: "./img/2.jpg"},
+        {content: "./img/3.jpg"},
+        {content: "./img/4.jpg"},
+        {content: "./img/5.jpg"},
+        {content: "./img/6.jpg"},
+        {content: "./img/7.jpg"},
+        {content: "./img/8.jpg"}
+    ];
+
+    var S = new iSlider(document.getElementById('iSlider-wrapper'), list, {
+        isLooping: 1,
+        isOverspread: 1,
+        isAutoplay: 1,
+        animateTime: 800,
+        animateType: 'depth',
+//            plugins: ['dot', 'button'],
+        plugins: [['dot', {background:'red'}]],
+    });
+  /*  var S = new iSlider({
+        dom: document.getElementById('iSlider-wrapper'),
+        data: list,
+        isLooping: 1,
+        isOverspread: 1,
+        animateTime: 800, // ms
+        plugins: ['dot', 'button']
+    });*/
+</script>
+</body>
+</html>
